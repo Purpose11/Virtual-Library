@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <script src="https://kit.fontawesome.com/80f60694e5.js" crossorigin="anonymous"></script>
+    <script src="./index.js" defer></script> 
+    <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Virtual Library</h1>
+        <button id="Add-btn">Add Book <span><i class="fa-sharp fa-solid fa-plus"></i></span></button>
+        <button id="View-btn">View Books <span><i class="fa-solid fa-book"></i></span></button>
+    </div>
+    <div class="container">
+        <form>
+
+            <input type="text" id="Book-name" placeholder="Enter Book Name"> <br>
+            <input type="text" id="author" placeholder="Author"> <br>
+            <label for="pages-number">Number of Pages:</label>
+            <input type="number" id="pages-number"> <br>
+            <label for="book-staus">Status: </label>
+            <select id="book-status">
+                <option>Read</option>
+                <option> Not Read</option>
+            </select> <br>
+
+            <button type="submit" id="submit-btn">Submit</button>
+        </form>
+
+    </div>
+    
+    <div class="library">
+        
+    </div>
+ 
+  
+    
+</body>
+</html>
